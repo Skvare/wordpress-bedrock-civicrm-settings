@@ -164,7 +164,7 @@ if (!defined('CIVICRM_DSN')) {
     }
   }
   else {
-      define('CIVICRM_DSN', 'mysql://' . $cms_database_user . ':' . $cms_database_password  . '@' . $cms_database_host  . ':3306/' . $civicrm_database_name . '?new_link=true');
+      define('CIVICRM_DSN', 'mysql://' . $civicrm_database_user . ':' . $civicrm_database_password  . '@' . $civicrm_database_host  . ':3306/' . $civicrm_database_name . '?new_link=true');
   }
 }
 
