@@ -1,0 +1,10 @@
+{
+  "name": "skvare/wordpress-bedrock-civicrm-settings",
+  "description": "CiviCRM settings file for Wordpress Bedrock CiviCRM Template",
+  "type": "civicrm-settings",
+  "license": "GPL-2.0-or-later",
+  "require": {
+        "composer/installers": "^1.0 || ^2.0",
+        "civicrm/civicrm-wordpress": "*"
+  }
+}
