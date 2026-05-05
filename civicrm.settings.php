@@ -134,7 +134,8 @@ $civicrm_paths['civicrm.private']['path'] = $repo_root . '/web/app/uploads/civic
 $civicrm_paths['wp.frontend.base']['url'] = $site_uri ;
 $civicrm_paths['wp.backend.base']['url'] = $site_uri . 'wp/wp-admin/';
 $civicrm_setting['domain']['userFrameworkResourceURL'] = $site_uri . 'app/plugins/civicrm/civicrm/core';
-
+$civicrm_setting['domain']['extensionsDir'] = $repo_root . '/web/app/civicrm-ext/';
+$civicrm_setting['URL Preferences']['extensionsURL'] = $site_uri . 'app/civicrm-ext/';
 
 /**
  * CiviCRM Database Settings
